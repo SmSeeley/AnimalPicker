@@ -11,10 +11,10 @@ public class AnimalPicker {
             String choice = scanner.nextLine().toLowerCase();
 
             if (choice.equals("dog")) {
-                System.out.println("Dog ASCII ART HERE");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
                 break;
             } else if (choice.equals("cat")) {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println("    fe/\\_____/\\\n   /  o   o  \\\n  ( ==  ^  == )\n   )         (\n  (           )\n ( (  )   (  ) )\n(__(__)___(__)__)");
                 break;
             } else {
                 System.out.println("Error");
