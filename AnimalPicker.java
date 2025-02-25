@@ -13,7 +13,8 @@ public class AnimalPicker {
         else if (choice.equals("cat")) {
             System.out.println("CAT ASCII ART HERE");
         }
-        else {
+        else {           
+           System.out.println("Error");
            System.out.println("Invalid choice"); 
         }
     }
